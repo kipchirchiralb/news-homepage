@@ -51,5 +51,19 @@ nav p a:hover {
 }
 
 /* hero */
+.hero {
+  display: flex;
+}
+.hero_intro {
+  flex: 2;
+}
+.hero_intro-image img {
+  width: 100%;
+}
+
+.hero_news {
+  flex: 1;
+  background-color: var(--very-dark-blue);
+}
 
 /* blogs */
